@@ -6,11 +6,13 @@
 </head>
 <body>
 <form action="/register" method="post">
-    用户名：<input type="text" name="username" /><span th:text="${tip1}"></span><br>
-    密码：<input type="password" name="password" /><br>
-    确认密码：<input type="password" name="password2" /><br>
+    <p style="margin: auto">
+    <p style="text-align: center">用户名：<input type="text" name="username" /><span th:text="${tip1}"></span><br></p>
+    <p style="text-align: center">密码：<input type="password" name="password" /><br></p>
+    <p style="text-align: center">确认密码：<input type="password" name="password2" /><br></p>
     <span th:text="${tip2}"></span><br>
-    <input type="submit" value="注册"><a href="/fanhui" > 返回主页 </a>
+        <p style="text-align: center"><input type="submit" value="注册" ></p><a href="/fanhui" > <P style="text-align: center">返回主页 </P></a>
+    </div>
 </form>
 </body>
 </html>
